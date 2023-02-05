@@ -17,7 +17,7 @@ export default function FooterPage() {
                 </div>
                 <div className='RightFooter'>
                     <div className='SupportText'>Organized with support from:</div>
-                    <img src={penn} href='https://www.seas.upenn.edu/' alt='Penn Engineering logo'/>
+                    <a href='https://www.seas.upenn.edu/' rel="noreferrer" target='_blank'><img src={penn} alt='Penn Engineering logo'/></a>
                 </div>
             </span>
         </div>
