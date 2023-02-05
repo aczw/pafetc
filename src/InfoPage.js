@@ -1,4 +1,4 @@
-import './InfoPage.css'
+import './InfoPage.css';
 
 export default function InfoPage() {
     return (

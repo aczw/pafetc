@@ -3,6 +3,7 @@ import LandingPage from './LandingPage';
 import NavBar from './NavBar';
 import ApplyPage from './ApplyPage';
 import InfoPage from './InfoPage';
+import footer from './assets/footer-background.png';
 
 export default function Main() {
   return (
@@ -11,6 +12,7 @@ export default function Main() {
         <NavBar />
         <ApplyPage />
         <InfoPage />
+        <img src={footer} alt='footer background' className='FooterBg'/>
     </div>
   );
 }
