@@ -1,10 +1,60 @@
+.FooterCanvas {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
 .FooterBg {
+    background-color: #faf5e7;
+    position: absolute;
+    width: 100%;
     max-width: 100%;
     height: auto;
 }
 
-.Footer {
+.FooterContent {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 85%;
+    color: #faf5e7;
+    top: 8.5em;
+    font-weight: bold;
+}
+
+.LeftFooter {
+    display: flex;
+    font-size: 1.1em;
+}
+
+.RightFooter {
+    display: flex;
+    flex-direction: column;
+    font-size: 1em;
+}
+
+.SupportText {
+    margin: 0px 0px 15px 0px;
+}
+
+.WordmarkCopright {
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
+}
+
+.Wordmark {
+    font-weight: bolder;
+    font-size: 3em;
+    line-height: 1em;
+    text-align: center;
+    margin: 0px 0px 40px 0px;
+}
+
+.CodeOfConduct {
+    margin: 0px 50px;
 }
