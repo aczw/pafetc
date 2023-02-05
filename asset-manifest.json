@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/pafetc/static/css/main.4b0af03d.css",
-    "main.js": "/pafetc/static/js/main.8089a222.js",
+    "main.css": "/pafetc/static/css/main.d497fb62.css",
+    "main.js": "/pafetc/static/js/main.33016f0a.js",
     "static/media/landing-background.png": "/pafetc/static/media/landing-background.ec8cec17a3f715373cd8.png",
     "static/media/Manrope.woff2": "/pafetc/static/media/Manrope.dfab7504790c080e7bf1.woff2",
     "static/media/banner.png": "/pafetc/static/media/banner.95a9649dfda884ed3536.png",
     "index.html": "/pafetc/index.html",
-    "main.4b0af03d.css.map": "/pafetc/static/css/main.4b0af03d.css.map",
-    "main.8089a222.js.map": "/pafetc/static/js/main.8089a222.js.map"
+    "main.d497fb62.css.map": "/pafetc/static/css/main.d497fb62.css.map",
+    "main.33016f0a.js.map": "/pafetc/static/js/main.33016f0a.js.map"
   },
   "entrypoints": [
-    "static/css/main.4b0af03d.css",
-    "static/js/main.8089a222.js"
+    "static/css/main.d497fb62.css",
+    "static/js/main.33016f0a.js"
   ]
 }
