@@ -1,10 +1,12 @@
 import './Main.css';
 import LandingPage from './LandingPage';
+import NavBar from './NavBar';
 
 export default function Main() {
   return (
-    <div className="Canvas">
+    <div id='landing' className="Canvas">
         <LandingPage />  
+        <NavBar />
     </div>
   );
 }

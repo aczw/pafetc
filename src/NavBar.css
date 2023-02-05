@@ -1,0 +1,30 @@
+.NavBar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: -webkit-sticky;
+    position: sticky;
+
+    list-style-type: none;
+    margin: 0px;
+    padding: 35px;
+    background-color: #fdfbf7;
+}
+
+li {
+    display: inline;
+}
+
+.Home {
+    color: #1f4a38;
+    font-weight: 1000;
+    font-size: 1.5em;
+    text-decoration: none;
+}
+
+.Link {
+    color: #1f4a38;
+    font-size: 1.5em;
+    text-decoration: none;
+    margin: 0px 30px 0px 35px;
+}
