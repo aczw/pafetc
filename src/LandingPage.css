@@ -1,3 +1,12 @@
+@font-face {
+    font-family: 'Manrope';
+    src: url(./fonts/Manrope.woff2) format('woff2');
+}
+
+* {
+    font-family: 'Manrope';
+}
+
 .TimeBox {
     display: flex;
     flex-direction: column;
@@ -13,13 +22,13 @@
 
 .TimeNumber {
     color: #1f4a38;
-    font-size: xx-large;
+    font-size: 3em;
     font-weight: bold;
 }
 
 .TimeUnit {
     color: #40916c;
-    font-size: medium;
+    font-size: 1em;
     font-weight: bold;
 }
 
@@ -30,8 +39,11 @@
 
 .Date {
     color: #1f4a38;
+    font-weight: 600;
 }
 
 .LandingPage {
+    display: flex;
+    flex-direction: column;
     text-align: center;
 }

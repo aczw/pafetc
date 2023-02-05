@@ -1,9 +1,10 @@
 import './LandingPage.css';
+import banner from './assets/banner.png';
 
 function TimeBox({ unit }) {
     return (
         <div className='TimeBox'>
-            <text className='TimeNumber'>69</text>
+            <text className='TimeNumber'>89</text>
             <text className='TimeUnit'>{unit}</text>
         </div>
     );
@@ -12,9 +13,9 @@ function TimeBox({ unit }) {
 export default function LandingPage() {
     return (
         <section className='LandingPage'>
-            <div>
-                <h1>PennApps XXIII logo</h1>
-                <p className='Date'>September 8-10, 2023</p>
+            <div className='BannerDate'>
+                <img src={banner} alt='banner'/>
+                <div className='Date'>September 8-10, 2023</div>
             </div>
             <div className='Countdown'>
                 <TimeBox unit={'DAYS'}/>
