@@ -1,5 +1,6 @@
 import './LandingPage.css';
 import banner from './assets/banner.png';
+import landing from './assets/landing-background.png';
 
 function TimeBox({ unit }) {
     return (
@@ -23,6 +24,7 @@ export default function LandingPage() {
                 <TimeBox unit={'MINUTES'}/>
                 <TimeBox unit={'SECONDS'}/>
             </div>
+            <img src={landing} alt='landing background' className='LandingBg'/>
         </section>
     );
   }
