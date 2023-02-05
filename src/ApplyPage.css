@@ -1,0 +1,40 @@
+.ApplyCanvas {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    margin: 0;
+    padding: 125px 0px;
+    background-color: #f5edd6;
+}
+
+.ButtonLayout {
+    margin: 50px 0px;
+}
+
+.ApplyButton {
+    background-color: #1f4a38;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    color: #f5edd6;
+    padding: 10px 30px;
+    border-radius: 30px;
+    font-weight: bold;
+    transition-duration: 0.15s;
+}
+
+.ApplyButton:hover {
+    background-color: #40916c;
+}
+
+.ApplyHeader {
+    color: #1f4a38;
+    font-weight: 1000;
+    font-size: 2.8em;
+}
+
+.ApplyText {
+    color: #1f4a38;
+    font-size: 1.2em;
+}
