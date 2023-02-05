@@ -2,6 +2,7 @@ import './Main.css';
 import LandingPage from './LandingPage';
 import NavBar from './NavBar';
 import ApplyPage from './ApplyPage';
+import InfoPage from './InfoPage';
 
 export default function Main() {
   return (
@@ -9,6 +10,7 @@ export default function Main() {
         <LandingPage />  
         <NavBar />
         <ApplyPage />
+        <InfoPage />
     </div>
   );
 }

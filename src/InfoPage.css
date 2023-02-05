@@ -1,0 +1,30 @@
+.InfoCanvas {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    margin: 0;
+    padding: 125px 0px;
+}
+
+.InfoContent {
+    color: #1f4a38;
+}
+
+textarea {
+    resize: none;
+}
+
+h1 {
+    font-size: 2.5em;
+    font-weight: 1000;
+}
+
+h2 {
+    font-size: 1.6em;
+    font-weight: 1000;
+}
+
+text {
+    font-size: 1.2em;
+}
